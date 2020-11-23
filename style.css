@@ -1,23 +1,27 @@
 body{
-		background-image:url(https://www.levantina.com/wp-content/uploads/2016/01/marmol_gamas_blancos_blancovenato_color.jpg);
+		background-image: url(https://raw.githubusercontent.com/clarasdfgh/Crilux_web/main/Recursos/bg.png);
+		background-size: cover;
+		background-position: center center;
 		font-family: calibri;
 		color: black;
 	}
 
 	h1{
-		color:grey;
+		color:white;
 		font-family:impact;
 		font-weight: bold;
+		text-shadow: -1px 0 black, 0 2px #314453, 1px 0 black, 0 -1px black;
 		font-size:500%;
 		margin-bottom: 10px;
 		margin-top: 10px;
 	}
 
 	h2{
-		color:grey;
-		font-style:italic;
-		font-size:140%;
-		font-family:times new roman;
+		color: grey;
+		text-indent: 20px;
+		font-style: italic;
+		font-size: 140%;
+		font-family: times new roman;
 	}
 
 	h3{
@@ -50,17 +54,18 @@ body{
 		color:#CCFFFF;
 		/*border:5px solid black;*/
 		padding: 20px;
-		border-radius: 20px
+		border-radius: 5px
 	}
 
 	nav{
 		position: absolute;
-		background-color: #464647;
-		color:white;
-		margin-top: 0px;
+		background-color: white;
+		border-radius: 5px;
+		color: white;
+		margin-top: 30px;
 		margin-left: 0px;
 		height: 100%;
-		width: 200px;
+		width: 400px;
 		z-index: 1;
 	}
 
@@ -85,4 +90,22 @@ body{
 	article{
 		margin-left: 210px;
 		margin-bottom: 40px;
+	}
+
+	page-container {
+	  position: relative;
+	  min-height: 100vh;
+	}
+
+	content-wrap {
+	  padding-bottom: 2.5rem;    /* Footer height */
+	}
+
+
+	footer{
+		margin-bottom: 0px
+		position: absolute;
+		color: #314453;
+		width: 100%;
+	  height: 2.5rem;            /* Footer height */
 	}
