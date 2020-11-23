@@ -1,0 +1,88 @@
+body{
+		background-image:url(https://www.levantina.com/wp-content/uploads/2016/01/marmol_gamas_blancos_blancovenato_color.jpg);
+		font-family: calibri;
+		color: black;
+	}
+
+	h1{
+		color:grey;
+		font-family:impact;
+		font-weight: bold;
+		font-size:500%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	h2{
+		color:grey;
+		font-style:italic;
+		font-size:140%;
+		font-family:times new roman;
+	}
+
+	h3{
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 110%;
+	}
+
+	p{
+		font-family: calibri;
+		font-weight: light;
+		text-align: left;
+	}
+
+	table{
+		font-family:verdana;
+		text-align:centre;
+		background-color:#464647;
+		color:white;
+		width:100%;
+		length:200%;
+	}
+
+	a{
+		color:#686868;
+	}
+
+	header{
+		background-color:white;
+		color:#CCFFFF;
+		/*border:5px solid black;*/
+		padding: 20px;
+		border-radius: 20px
+	}
+
+	nav{
+		position: absolute;
+		background-color: #464647;
+		color:white;
+		margin-top: 0px;
+		margin-left: 0px;
+		height: 100%;
+		width: 200px;
+		z-index: 1;
+	}
+
+	ul{
+		list-style-type: none;
+		text-align: left;
+		font-size: 200%;
+	}
+
+	li{
+		margin-bottom: 20px;
+		margin-left: 0px;
+		text-align: left;
+		font-family: verdana;
+		font-style: italic;
+	}
+
+	a.nav{
+		color: white;
+	}
+
+	article{
+		margin-left: 210px;
+		margin-bottom: 40px;
+	}
