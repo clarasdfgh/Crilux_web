@@ -12,8 +12,14 @@ body{
 		font-weight: bold;
 		text-shadow: -1px 0 black, 0 2px #314453, 1px 0 black, 0 -1px black;
 		font-size:500%;
-		margin-bottom: 10px;
+		margin-bottom: 0px;
 		margin-top: 10px;
+	}
+
+	img.letras {
+  	height: 57%;
+  	width: 57%;
+		margin-bottom: 0px;
 	}
 
 	h2{
