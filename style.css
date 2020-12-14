@@ -22,12 +22,19 @@ body{
 		margin-bottom: 0px;
 	}
 
+	img.logo {
+		left: 1170px;
+		margin-bottom: 0px;
+	}
+
 	h2{
 		color: grey;
-		text-indent: 20px;
+		text-indent: 15px;
 		font-style: italic;
 		font-size: 140%;
-		font-family: times new roman;
+		font-family: 'ABeeZee';font-size: 22px;
+		margin-bottom: 0px;
+		margin-top: -14px;
 	}
 
 	h3{
@@ -82,11 +89,13 @@ body{
 	}
 
 	li{
+		margin-top: 40px;
 		margin-bottom: 20px;
 		margin-left: 0px;
 		text-align: left;
 		font-family: verdana;
 		font-style: italic;
+		color: black;
 	}
 
 	a.nav{
@@ -94,24 +103,25 @@ body{
 	}
 
 	article{
-		margin-left: 210px;
+		margin-left: 420px;
+		margin-right: 90px;
+		margin-top: 30px;
 		margin-bottom: 40px;
-	}
-
-	page-container {
-	  position: relative;
-	  min-height: 100vh;
-	}
-
-	content-wrap {
-	  padding-bottom: 2.5rem;    /* Footer height */
+		background-color:#ebf5ef;
+		color:#CCF11F;
+		border-left:5px solid #314453;
+		padding: 20px;
+		border-radius: 5px
 	}
 
 
 	footer{
-		margin-bottom: 0px
+		margin-bottom: -10px;
+		margin-left: -10px;
+		margin-right: -10px;
+		padding: 10px;
 		position: absolute;
-		color: #314453;
+		background-color: #314453;
 		width: 100%;
-	  height: 2.5rem;            /* Footer height */
+	  height: 20%;            /* Footer height */
 	}
